@@ -1,0 +1,288 @@
+.PRP_add-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:22%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    
+    font-weight: 500;
+    font-family: 'PRPto', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .PRP_add-button:hover {
+    background:#2fdbb6;
+  }
+  .PRP_add-button:active {
+    background:#1da88a;
+  } 
+  .PRP_cancel-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:22%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 2rem;
+    font-weight: 500;
+    font-family: 'lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #8c8a8f;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .PRP_cancel-button:hover {
+    background:#b5b2bb;
+  }
+  .PRP_cancel-button:active {
+    background:#1da88a;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+  }
+  
+  .PRP_Div {
+    width:555px;
+  
+    height: auto;
+    padding: 0px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    /* box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff; */
+                    
+   
+  }
+  
+  
+  .PRP_fields {
+    /* width:100%; */
+    overflow: hidden;
+    padding: 45px 5px 5px 5px;
+
+  
+  }
+  
+  .PRP_fields input {
+    border: none;
+    /* width:100%; */
+    outline:none;
+    background: none;
+    overflow: hidden;
+    font-size: 15px;
+    color: #555;
+    padding:20px 10px 20px 5px; 
+   
+  }
+  input.PRP-input {
+    border: none;
+    width: 100%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:17px 17px;
+    /* height:18px; */
+    
+  }
+  input.PRP-input1 {
+    border: none;
+    width: 100%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:20px;
+    
+  }
+  input.PRP-input2 {
+    border: none;
+    width: 100%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:20px;
+    
+  }
+  input.PRP-input3 {
+    border: none;
+    width: 85%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:18px 16px;
+    
+  }.PRP_fields input::after{
+    border: none;
+    overflow: hidden;
+    outline:none;
+    background: none;
+  
+   
+  }
+  .PRP_lab {
+  
+    width: 48%;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+                
+  }
+  .PRP_lab1 {
+    margin-left: auto;
+    width: 48%;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+                
+  }
+  .PRP_lab2 {
+  
+    width: 98%;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+                
+  }
+  .PRP_box {
+   
+    height: 58px;
+    width:48%;
+    float:left;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+  }
+  
+  .PRP-icon1 {
+    margin-top: 0.8rem;
+    height: 2rem;
+    width: 1.5rem;
+    float:right;
+    margin-right: 0.5rem;
+    
+  }
+  .PRP_dropdown{
+  
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #ffffff;
+    cursor: pointer; 
+    font-size: 16px;
+    color: #555;
+    
+          
+  }
+  .PRP_dropdown:active{
+    background:  #ecf0f3;
+    box-shadow: inset 7px 7px 14px #cccdd1,
+                 inset -7px -7px 14px #ffffff;
+  }
+  .PRP_dropdown Select{
+    position: absolute;
+    transform: translate(-50%,-0%);
+    z-index: 1;
+    border: none;
+    outline: none;
+    background: none;
+    color: #37373d;
+    font-size: 16px;
+    cursor: pointer;
+   }
+  .PRP_dropdown select:focus{
+    outline: none;
+    border: none; 
+  } 
+  
+  
+  .PRP_select-style select {
+  
+    width: 90%;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 1rem;
+    margin-left: 0rem;
+    padding: 19px 10px;
+   
+    
+  }
+  
+  .PRP_select-style:after {
+  /*arrow head*/
+    left: 85%;
+    border: solid transparent;
+    content: " ";
+    /* height: 1rem; */
+    /* width: 1px; */
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-top-color: #000000;
+    border-width: 5px;
+    margin-top:1.8rem;
+    z-index: 100;
+    
+    }
+  .PRP_select-style select:focus {
+  outline: none;
+  }
+
+
+
+
+
+
+
+.modal-PRP {
+  position: fixed;
+  z-index:1000;
+  display: flex;
+  /* box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #ffffff; */
+  left:4%;
+  width:90%;
+  overflow:auto;
+    height: 100%;
+  height: auto;
+  /* margin-top: -15rem; */
+  padding: 0px 20px 20px 20px;
+  border-radius: 40px;
+  background: #ecf0f3;
+  font-size: 16px;
+                color:black;
+ 
+}
+

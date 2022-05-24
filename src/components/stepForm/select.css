@@ -1,0 +1,963 @@
+.wor-dropdown3{
+  
+    text-align: center;
+    position: relative;
+    width: 23rem;
+    margin-top: -1rem;
+    height: 47px;
+    /* margin: 0; */
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+    cursor: pointer;  
+              
+    }
+    .wor-dropdown3:active{
+      background:  #ecf0f3;
+      box-shadow: inset 7px 7px 14px #cccdd1,
+                   inset -7px -7px 14px #ffffff;
+    }
+    .wor-dropdown3 Select{
+     position: absolute;
+     
+     
+     transform: translate(-50%,-50%);
+     z-index: 1;
+     border: none;
+     outline: none;
+     background: none;
+     color: #37373d;
+     font-size: 1.5em;
+     cursor: pointer;
+    }
+    .wor-dropdown3 select:focus{
+      outline: none;
+      border: none; 
+    } 
+    .Name-dropdown3{
+  
+      text-align: center;
+      position: relative;
+      width: 364px;
+      margin-top: -1rem;
+      height: 47px;
+      /* margin: 0; */
+      border-radius: 25px;
+      box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+      cursor: pointer;
+                
+      }
+      .Name-dropdown3:active{
+        background:  #ecf0f3;
+        box-shadow: inset 7px 7px 14px #cccdd1,
+                     inset -7px -7px 14px #ffffff;
+      }
+      .Name-dropdown3 Select{
+       position: absolute;
+       
+       
+       transform: translate(-50%,-50%);
+       z-index: 1;
+       border: none;
+       outline: none;
+       background: none;
+       color: #37373d;
+       font-size: 1.5em;
+       cursor: pointer;
+      }
+      .Name-dropdown3 select:focus{
+        outline: none;
+        border: none; 
+      } 
+    .dropdown4{
+    
+      text-align: center;
+      position: relative;
+      width: 174px;
+      margin-top: -1rem;
+      height: 32px;
+      /* margin: 0; */
+      border-radius: 25px;
+      box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+      cursor: pointer;         
+      }
+      .dropdown4:active{
+        background:  #ecf0f3;
+        box-shadow: inset 7px 7px 14px #cccdd1,
+                     inset -7px -7px 14px #ffffff;
+      }
+      .dropdown4 Select{
+       position: absolute;
+       transform: translate(-50%,-50%);
+       z-index: 1;
+       border: none;
+       outline: none;
+       background: none;
+       color: #37373d;
+       font-size: 1.5em;
+       cursor: pointer;
+      }
+      .Drop_Button{
+        background-color: #0f90dc;
+        color: white;
+        border: none;
+      } 
+      .dropdown4 select:focus{
+        outline: none;
+        border: none; 
+      } 
+    .dropdown5{
+      text-align: center;
+      position: relative;
+      width: 181px;
+      margin-top: -1rem;
+      height: 47px;
+      /* margin: 0; */
+      margin-left: 11.5rem;
+      border-radius: 25px;
+      box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+      cursor: pointer;
+                
+      }
+      .dropdown5:active{
+        background:  #ecf0f3;
+        box-shadow: inset 7px 7px 14px #cccdd1,
+                     inset -7px -7px 14px #ffffff;
+      }
+      .dropdown5 Select{
+       position: absolute;
+       
+       
+       transform: translate(-50%,-50%);
+       z-index: 1;
+       border: none;
+       outline: none;
+       background: none;
+       color: #37373d;
+       font-size: 1.5em;
+       cursor: pointer;
+      }
+      .dropdown5 select:focus{
+        outline: none;
+        border: none; 
+      } 
+    
+    .select-style {
+    padding: 0;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    align-content: center;
+    text-align: center;
+    width: 120px;
+    border-radius: 33px;
+    color:#555;
+    background:  #ecf0f3;
+    
+    
+    background-color:   #ecf0f3;
+    
+    position: relative;
+    }
+    .select-style select {
+    
+      width: 121%;
+      height: 4rem;
+      -webkit-appearance: none;
+      appearance: none;
+      font-size: 1rem;
+      margin-left: -2rem;
+      padding: 10px;
+      margin-top: 1.55rem;
+    }
+    
+    
+    
+    .select-style:after {
+    top: 100%;
+    left: 75%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 10px;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-top-color: #000000;
+    border-width: 5px;
+    margin-top:1.5rem;
+    z-index: 100;
+    }
+    .select-style select:focus {
+    outline: none;
+    }
+    .select-style {
+      padding: 0;
+      margin-top: 1rem;
+      margin-left: 3rem;
+      align-content: center;
+      text-align: center;
+      width: 120px;
+      border-radius: 33px;
+      color:#555;
+      background:  #ecf0f3;
+      
+      
+      background-color:   #ecf0f3;
+      
+      position: relative;
+      }
+      .select-style select {
+      
+        width: 121%;
+        height: 4rem;
+        -webkit-appearance: none;
+        appearance: none;
+        font-size: 1rem;
+        margin-left: -2rem;
+        padding: 10px;
+        margin-top: 1.55rem;
+      }
+      
+      
+      
+      .select-style:after {
+      top: 100%;
+      left: 75%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 10px;
+      position: absolute;
+      pointer-events: none;
+      border-color: rgba(0, 0, 0, 0);
+      border-top-color: #000000;
+      border-width: 5px;
+      margin-top:1.5rem;
+      z-index: 100;
+      }
+      .select-style select:focus {
+      outline: none;
+      }
+      .wor-select-style1 {
+        padding: 0;
+        margin-top: 1rem;
+        margin-left: 3rem;
+        align-content: center;
+        text-align: center;
+        width: 120px;
+        border-radius: 33px;
+        color:#555;
+        background:  #ecf0f3;
+        
+        
+        background-color:   #ecf0f3;
+        
+        position: relative;
+        }
+        .wor-select-style1 select {
+        
+          width: 21rem;
+          height: 3rem;
+          -webkit-appearance: none;
+          appearance: none;
+          font-size: 14px;
+          margin-left: 4.5rem;
+          padding: 10px;
+          margin-top: 1.55rem;
+        }
+        
+        
+        
+        .wor-select-style1:after {
+        top: 100%;
+        left: 230%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 10px;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(0, 0, 0, 0);
+        border-top-color: #000000;
+        border-width: 5px;
+        margin-top:1.5rem;
+        z-index: 100;
+        }
+        .wor-select-style1 select:focus {
+        outline: none;
+        }
+    .select-style2 {
+      padding: 0;
+      margin-top: 1rem;
+      margin-left: 3rem;
+      align-content: center;
+      text-align: center;
+      width: 120px;
+      border-radius: 33px;
+      color:#555;
+      background:  #ecf0f3;
+      
+      
+      background-color:   #ecf0f3;
+      
+      position: relative;
+      }
+      .select-style2 select {
+      
+        width: 121%;
+        height: 4rem;
+        -webkit-appearance: none;
+        appearance: none;
+        font-size: 1rem;
+        margin-left: -2rem;
+        padding: 10px;
+        margin-top: 1.1rem;
+      }
+      
+      
+      
+      .select-style2:after {
+      top: 100%;
+      left: 75%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 10px;
+      position: absolute;
+      pointer-events: none;
+      border-color: rgba(0, 0, 0, 0);
+      border-top-color: #000000;
+      border-width: 5px;
+      margin-top:1rem;
+      z-index: 100;
+      }
+      .select-style2 select:focus {
+      outline: none;
+      }
+    .Name-select-style1 {
+      padding: 0;
+      margin-top: 1rem;
+      margin-left: 3rem;
+      align-content: center;
+      text-align: center;
+      width: 120px;
+      border-radius: 33px;
+      color:#555;
+      background:  #ecf0f3;
+      
+      
+      background-color:   #ecf0f3;
+      
+      position: relative;
+      }
+      .Name-select-style1 select {
+      
+        width: 285%;
+        height: 4rem;
+        -webkit-appearance: none;
+        appearance: none;
+        font-size: 1rem;
+        margin-left: 4.5rem;
+        padding: 10px;
+        margin-top: 1.55rem;
+      }
+      
+      
+      
+      .Name-select-style1:after {
+      top: 100%;
+      left: 230%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 10px;
+      position: absolute;
+      pointer-events: none;
+      border-color: rgba(0, 0, 0, 0);
+      border-top-color: #000000;
+      border-width: 5px;
+      margin-top:1.5rem;
+      z-index: 100;
+      }
+      .Name-select-style1 select:focus {
+      outline: none;
+      }
+    * {
+        box-sizing: border-box;
+      
+    }
+    /* body{
+        overflow: scroll;
+    } */
+      /* body {
+        margin:0;
+        height: auto;
+        width: 100vw;
+        overflow: scroll;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:#555;
+        background: #ecf0f3;
+      } */
+      .login-div {
+        width:430px;
+        height: auto;
+        padding: 0px 35px 35px 35px;
+        border-radius: 40px;
+        background: #ecf0f3;
+        box-shadow: 13px 13px 20px #cbced1,
+                    -13px -13px 20px #ffffff;
+      }
+      .login-div2 {
+        width:444px;
+        height: auto;
+        padding: 0px 35px 35px 35px;
+        border-radius: 40px;
+        background: #ecf0f3;
+        box-shadow: 13px 13px 20px #cbced1,
+                    -13px -13px 20px #ffffff;
+      }
+      .login-div3 {
+        width:430px;
+        height: 374px;
+        padding: 0px 35px 35px 35px;
+        border-radius: 40px;
+        background: #ecf0f3;
+        box-shadow: 13px 13px 20px #cbced1,
+                    -13px -13px 20px #ffffff;
+      }
+      .Name-div5 {
+        width:445px;
+        height: auto;
+        padding: 0px 35px 35px 35px;
+        border-radius: 40px;
+        background: #ecf0f3;
+        box-shadow: 13px 13px 20px #cbced1,
+                    -13px -13px 20px #ffffff;
+      }
+      .PhoneInputCountryIconImg{
+        width: 1.5rem;
+      margin-top: 0.4rem;
+      float: left;
+      }
+      .PhoneInputInput{
+        background: none;
+      
+        border: none;
+        outline: none;
+      }
+      .PhoneInputCountrySelect{
+        width: 1rem;
+      outline: none;
+      cursor: pointer;
+      border: none;
+      margin-left: 1rem;
+      float: left;
+      background: none;
+      margin-top: 0.4rem;
+      }
+      .Contact-div6 {
+        width:445px;
+        margin-top: 2rem;
+        height: auto;
+        padding: 35px 35px 35px 35px;
+        border-radius: 40px;
+        background: #ecf0f3;
+        box-shadow: 13px 13px 20px #cbced1,
+                    -13px -13px 20px #ffffff;
+      }
+      /* .logo {
+        /* background-image:url("Logo1.png"); */
+        /* width:100px; */
+        /* height: 100px; */
+        /* border-radius: 50%; */
+        /* margin:0 auto; */
+        /* box-shadow:  */
+        /* logo shadow
+        0px 0px 2px #5f5f5f,
+        offset
+        0px 0px 0px 5px #ecf0f3,
+        bottom right
+        8px 8px 15px #a7aaaf,
+        top left
+        -8px -8px 15px #ffffff
+        ; */
+      /* } */ */
+      .title {
+        text-align: center;
+        font-size: 28px;
+        padding-top: 24px;
+        letter-spacing: 0.5px;
+      }
+      .sub-title {
+        text-align: center;
+        font-size: 15px;
+        padding-top: 7px;
+        letter-spacing: 3px;
+      }
+      .Name-fields1 {
+        width: 100%;
+        overflow: hidden;
+        padding: 20px 5px 5px 5px;
+      }
+      .Name-fields1 input {
+        border: none;
+        outline:none;
+        background: none;
+        overflow: hidden;
+        font-size: 15px;
+        color: #555;
+        padding:14px 10px 14px 10px;
+      }
+      .Contact-fields1 {
+        width: 100%;
+        overflow: hidden;
+        padding: 20px 5px 5px 5px;
+      }
+      .Contact-fields1 input {
+        border: none;
+        outline:none;
+        background: none;
+        overflow: hidden;
+        font-size: 15px;
+        color: #555;
+        padding:14px 10px 14px 20px;
+      }
+      .fields4 {
+        width: 100%;
+        overflow: hidden;
+        padding: 20px 5px 5px 5px;
+      }
+      .fields4 input {
+        border: none;
+        outline:none;
+        background: none;
+        overflow: hidden;
+        font-size: 20px;
+        color: #555;
+        padding:20px 10px 20px 5px;
+      }
+      input.Name-user-input3 {
+        border: none;
+        outline:none;
+        width:11rem;
+        height:3rem;
+        background: none;
+        overflow: hidden;
+        font-size: 15px;
+        color: #555;
+        padding:15px;
+      }
+      .PhoneInput{
+        margin-top: 0.7rem;
+      }
+      .fields2 input {
+        border: none;
+        outline:none;
+        background: none;
+        overflow: hidden;
+        font-size: 20px;
+        color: #555;
+        padding:20px 10px 20px 5px;
+      }
+      input.user-input7 {
+        border: none;
+        outline:none;
+        width:10rem;
+        height:2rem;
+        background: none;
+        overflow: hidden;
+        font-size: 18px;
+        color: #555;
+        padding:15px;
+      }
+      input.wor-user-input4 {
+        border: none;
+        outline:none;
+        width: 10rem;
+        height:3rem;
+        background: none;
+        overflow: hidden;
+        font-size: 16px;
+        margin-left: 0.5rem;
+        color: #555;
+    
+        
+      }    input.Name-user-input4 {
+        border: none;
+        outline:none;
+        width: 21rem;
+        height:3rem;
+        background: none;
+        overflow: hidden;
+        font-size: 16px;
+        margin-left: 0.5rem;
+        color: #555;
+    
+        
+      }
+      input.Name-user-input8 {
+        border: none;
+        outline:none;
+        width: 20rem;
+        height:3rem;
+        background: none;
+        overflow: hidden;
+        font-size: 15px;
+        /* margin-left: 0.5rem; */
+        color: #555;
+    
+        
+      }
+      input.user-input5 {
+        border: none;
+        outline:none;
+        margin-left: 1rem;
+        width: 20rem;
+        height:3rem;
+        background: none;
+        overflow: hidden;
+        font-size: 20px;
+        color: #555;
+    
+        
+      }
+      .fields1 input::after{
+        border: none;
+        overflow: hidden;
+        outline:none;
+        background: none;
+       
+      }
+      .username, .password {
+        overflow: hidden;
+        background: none;
+        border-radius: 25px;
+        box-shadow: inset 8px 8px 8px #cbced1,
+                    inset -8px -8px 8px #ffffff;
+      }
+      .Name-username1{
+        overflow: hidden;
+        background: none;
+        border-radius: 25px;
+        box-shadow: inset 8px 8px 8px #cbced1,
+                    inset -8px -8px 8px #ffffff;
+      }
+      .wor-username1{
+        overflow: hidden;
+        width:11rem;
+        background: none;
+        border-radius: 25px;
+        box-shadow: inset 8px 8px 8px #cbced1,
+                    inset -8px -8px 8px #ffffff;
+      }
+    .password1{
+        overflow: hidden;
+        height:3rem;
+        width: 19rem;
+      margin: auto;
+        background: none;
+        border-radius: 25px;
+        box-shadow: inset 8px 8px 8px #cbced1,
+                    inset -8px -8px 8px #ffffff;
+      }
+      .Contact-password1{
+        overflow: hidden;
+        height:3rem;
+        width: 19rem;
+      margin: auto;
+        background: none;
+        border-radius: 25px;
+        box-shadow: inset 8px 8px 8px #cbced1,
+                    inset -8px -8px 8px #ffffff;
+      }
+      .Name-OPRJ2 {
+       
+        width:11rem;
+        float:left;
+        overflow: hidden;
+        background: none;
+        border-radius: 25px;
+        box-shadow: inset 8px 8px 8px #cbced1,
+                    inset -8px -8px 8px #ffffff;
+      }
+      .OPRJ5 {
+       
+        width:11rem;
+       
+        overflow: hidden;
+        background: none;
+        border-radius: 25px;
+        box-shadow: inset 8px 8px 8px #cbced1,
+                    inset -8px -8px 8px #ffffff;
+      }
+      .Name-OPRJ3 {
+  
+        width:11rem;
+    margin-left: 12rem;
+        overflow: hidden;
+        background: none;
+        border-radius: 25px;
+        box-shadow: inset 8px 8px 8px #cbced1,
+                    inset -8px -8px 8px #ffffff;
+      }
+      .Name-OPRJ4 {
+  
+        width:11rem;
+   
+        overflow: hidden;
+        background: none;
+        border-radius: 25px;
+        box-shadow: inset 8px 8px 8px #cbced1,
+                    inset -8px -8px 8px #ffffff;
+      }
+      .fields svg {
+        height: 22px;
+        margin-left: 1rem;
+        margin-top: -0.8rem;
+    }
+    
+      .fields .svg-icon1 {
+        height: 29px;
+        margin: 24px 14px -3px 25px;
+        float: right;
+        
+      }
+      .svg.Name-svg-icon3 {
+        height: 29px;
+        /* margin: 24px -1px -3px 25px; */
+        float: right;
+        
+      }
+      .Name-svg-icon3 {
+        width: 1.5em;
+        height: 1.5em;
+        margin-left: 1rem;
+      }
+      
+      .svg-icon3 path,
+      .svg-icon3 polygon,
+      .svg-icon3 rect {
+        fill: #000307;
+      }
+      
+      .svg-icon3 circle {
+        stroke: #4691f6;
+    
+        stroke-width: 1;
+      }
+      .signin-button {
+        outline: none;
+        border:none;
+        cursor: pointer;
+        width:100%;
+        height: 58px;
+        border-radius: 30px;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Lato', sans-serif;
+        color:#fff;
+        text-align: center;
+        background: #46a2ee;
+        box-shadow: 3px 3px 8px #b1b1b1,
+                    -3px -3px 8px #ffffff;
+        transition: 0.5s;
+      }
+      .signin-button:hover {
+        background:#0879d6;
+      }
+      .signin-button:active {
+        background:#1da88a;
+      }
+    
+      .link a {
+        text-decoration: none;
+        color:rgb(230, 19, 19);
+        font-size: 15px;
+        margin-left: 0.5rem;
+      }
+      .link a:hover {
+        text-decoration:underline;
+        color:rgb(230, 19, 19);
+        font-size: 15px;
+        margin-left: 0.5rem;
+      }
+      .link1 a {
+        text-decoration: none;
+        color:rgb(233, 30, 30);
+        font-size: 15px;
+        margin-left: 0.5rem;
+       
+      }
+      .link1 a:hover {
+        text-decoration:underline;
+        color:rgb(230, 19, 19);
+        font-size: 15px;
+        margin-left: 0.5rem;
+      }
+      .link2 a {
+        text-decoration: none;
+        color:rgb(233, 30, 30);
+        font-size: 15px;
+    float: right;
+       
+      }
+      .link2 a:hover {
+        text-decoration:underline;
+        color:rgb(230, 19, 19);
+        font-size: 15px;
+        margin-left: 0.5rem;
+      }
+      .link p {
+        text-decoration: none;
+        /* color:#aaa; */
+        margin-left: 4rem;
+        float:left;
+        font-size: 15px;
+      }
+      .link1 p {
+        text-decoration: none;
+        /* color:#aaa; */
+        margin-left: 3rem;
+        float:left;
+        font-size: 15px;
+      }
+      .Name-Radio1{
+        margin-left: 1rem;
+      }
+      
+     
+     
+      .add1-button {
+        outline: none;
+        border:none;
+        float:right;
+        cursor: pointer;
+      
+        width:22%;
+        height: 32px;
+        border-radius: 30px;
+        font-size: 15px;
+        
+        margin-left: 1rem;
+        font-weight: 500;
+        font-family: 'Lato', sans-serif;
+        color:#fff;
+        text-align: center;
+        background: #24cfaa;
+        box-shadow: 3px 3px 8px #b1b1b1,
+                    -3px -3px 8px #ffffff;
+        transition: 0.5s;
+      } 
+       .add1-button:hover {
+        background:#2fdbb6;
+      }
+      .add1-button:active {
+        background:#1da88a;
+      } 
+      .cancel1-button {
+        outline: none;
+        border:none;
+        float:right;
+        cursor: pointer;
+        width:22%;
+        height: 32px;
+        border-radius: 30px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: 'Lato', sans-serif;
+        color:#fff;
+        text-align: center;
+        background: #8c8a8f;
+        box-shadow: 3px 3px 8px #b1b1b1,
+                    -3px -3px 8px #ffffff;
+        transition: 0.5s;
+      } 
+       .cancel1-button:hover {
+        background:#b5b2bb;
+      }
+      .cancel1-button:active {
+        background:#1da88a;
+      }
+      .Name-add3-button {
+        outline: none;
+        border:none;
+        float:right;
+        cursor: pointer;
+      
+        width:22%;
+        height: 32px;
+        border-radius: 30px;
+        font-size: 15px;
+        
+        margin-left: 1rem;
+        font-weight: 500;
+        font-family: 'Lato', sans-serif;
+        color:#fff;
+        text-align: center;
+        background: #24cfaa;
+        box-shadow: 3px 3px 8px #b1b1b1,
+                    -3px -3px 8px #ffffff;
+        transition: 0.5s;
+      } 
+       .Name-add3-button:hover {
+        background:#2fdbb6;
+      }
+      .Name-add3-button:active {
+        background:#1da88a;
+      } 
+      .Contact-add3-button {
+        outline: none;
+        border:none;
+        float:right;
+        cursor: pointer;
+      
+        width:32%;
+        height: 32px;
+        border-radius: 30px;
+        font-size: 15px;
+        
+        margin-left: 1rem;
+        font-weight: 500;
+        font-family: 'Lato', sans-serif;
+        color:#fff;
+        text-align: center;
+        background: #24cfaa;
+        box-shadow: 3px 3px 8px #b1b1b1,
+                    -3px -3px 8px #ffffff;
+        transition: 0.5s;
+      } 
+       .Contact-add3-button:hover {
+        background:#2fdbb6;
+      }
+      .Contact-add3-button:active {
+        background:#1da88a;
+      } 
+      .cancel3-button {
+        outline: none;
+        border:none;
+        float:right;
+        cursor: pointer;
+        width:22%;
+        height: 32px;
+        border-radius: 30px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: 'Lato', sans-serif;
+        color:#fff;
+        text-align: center;
+        background: #8c8a8f;
+        box-shadow: 3px 3px 8px #b1b1b1,
+                    -3px -3px 8px #ffffff;
+        transition: 0.5s;
+      } 
+       .cancel3-button:hover {
+        background:#b5b2bb;
+      }
+      .cancel3-button:active {
+        background:#1da88a;
+      }
+
+      

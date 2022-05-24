@@ -1,0 +1,224 @@
+/*Cost of Account*/
+
+
+.login-divTab {
+    width: 200%;
+    height: auto;
+    margin-top: 0.5rem;
+    margin-left: -10rem;
+    padding: 10px 35px 35px 35px;
+    border-radius: 40px;
+    background: #92c2e7;
+    /* box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
+                font-size: 14px; */
+  }
+  .modal-content{
+    background: none;
+    border:none;
+    box-shadow:none;
+  }
+  .Radio1{
+    margin-left: 1rem;
+  }
+  
+  
+ .bankOkay-button{
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:8%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 0.2rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;  
+ }
+ .bankOkay-button:hover {
+    background:#2fdbb6;
+  }
+  .bankOkay-button:active {
+    background:#1da88a;
+  }
+  .bankAdd-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:5%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 0.2rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .bankAdd-button:hover {
+    background:#2fdbb6;
+  }
+  .bankAdd-button:active {
+    background:#1da88a;
+  } 
+  .bankCan-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:8%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 2rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #8c8a8f;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .bankCan-button:hover {
+    background:#b5b2bb;
+  }
+  .bankCan-button:active {
+    background:#1da88a;
+  }
+  
+  
+  
+  
+  
+  
+  /* body {
+    margin:0;
+    height: auto;
+    width: 100%;
+    overflow: scroll;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#555;
+    background: #ecf0f3;
+    border-radius: 20px;
+  } */
+  .title {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+  }
+
+    .bank_fields {
+        width:100%;
+        overflow: hidden;
+      }
+      
+      .bank_fields input {
+        border: none;
+        width:100%;
+        outline:none;
+        background: none;
+        overflow: hidden;
+        font-size: 16px;
+        color: #555; 
+      }
+      input.bank_user-input {
+        border: none;
+        width: 100%;
+        outline:none;
+        background: none;
+        overflow: hidden;
+        color: #555;
+      }
+      
+      .bank_fields input::after{
+        border: none;
+        overflow: hidden;
+        outline:none;
+        background: none;
+      
+       
+      }
+  .Table1
+  {    font-family: Lato, sans-serif;
+      
+       width: 100%;
+   
+  }
+
+      
+     .Table1 td {
+      border: 1px solid #dcdfe0;
+      padding: 8px;
+      font-size: 14px;
+      color: Black;
+    }
+      .Table1 tr:nth-child(odd){background-color: #ddd;}
+      .Table1 tr:hover {background-color:#C8C8C8;}
+
+
+      .Table1 th {
+        font-family: Lato, sans-serif;
+        padding: 8px;
+        border: 1px solid #dcdfe0;
+        text-align: left;
+        background-color: transparent;
+        color: Black;
+        font-weight: bold;
+        font-size: 14px;
+        border-bottom: 1px solid;
+      }
+      input.bank_user-input1 {
+        border: none;
+        width: 50%;
+        outline:none;
+        margin-top: 0.7rem;
+        background: none;
+        overflow: hidden;
+        color: #555;
+      }
+      
+      
+    
+      .svg-icon1 {
+       
+        float: right;
+         
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-top:0.9rem;
+        margin-right: 1rem;
+      
+
+        
+      }
+    
+      .bank_username {
+        width: 13%;
+        height: 3rem;
+        
+        overflow: hidden;
+        background: none;
+        border-radius: 25px;
+        box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+      }

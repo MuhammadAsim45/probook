@@ -1,0 +1,48 @@
+.inputStyle{
+   
+    width: 3rem !important;
+   align-items: center; 
+    height: 3rem;
+}
+.OTP-div7 {
+    width:445px;
+    height: 21rem;
+    margin: 6rem;
+ padding: 34px 61px 38px 68px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
+  }
+  .OTP-fields7 {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 5px 5px 5px;
+  }
+  .OTP-add7-button {
+    outline: none;
+    border:none;
+    
+    cursor: pointer;
+  
+    width:74%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    
+    margin-left: 2.5rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    boxshadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .OTP-add7-button:hover {
+    background:#2fdbb6;
+  }
+  .OTP-add7-button:active {
+    background:#1da88a;
+  } 

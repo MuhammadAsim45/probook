@@ -1,0 +1,266 @@
+.LPA_add-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:22%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    
+    font-weight: 500;
+    font-family: 'lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .LPA_add-button:hover {
+    background:#2fdbb6;
+  }
+  .LPA_add-button:active {
+    background:#1da88a;
+  } 
+  .LPA_cancel-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:22%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 2rem;
+    font-weight: 500;
+    font-family: 'lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #8c8a8f;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .LPA_cancel-button:hover {
+    background:#b5b2bb;
+  }
+  .LPA_cancel-button:active {
+    background:#1da88a;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+  }
+  
+  .LPA_Div {
+    width:540px;
+  
+    height: auto;
+    padding: 0px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    /* box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff; */
+  }
+  
+  
+  .LPA_fields {
+    width:100%;
+    overflow: hidden;
+    padding: 45px 5px 5px 5px;
+
+  
+  }
+  
+  .LPA_fields input {
+    border: none;
+    width:100%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    font-size: 16px;
+    color: #555;
+    padding:20px 10px 20px 5px; 
+   
+  }
+  input.LPA-input {
+    border: none;
+    width: 100%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:20px;
+    /* height:18px; */
+    
+  }
+  input.LPA-input1 {
+    border: none;
+    width: 80%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:20px;
+    
+  }
+  input.LPA-input2 {
+    border: none;
+    width: 100%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:20px;
+    
+  }
+  input.LPA-input3 {
+    border: none;
+    width: 67%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:20px;
+    
+  }.LPA_fields input::after{
+    border: none;
+    overflow: hidden;
+    outline:none;
+    background: none;
+  
+   
+  }
+  .LPA_lab {
+  
+    width: 48%;
+    height: 60px;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+                
+  }
+  .LPA_lab1 {
+    margin-left: auto;
+    width: 50%;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+                
+  }
+  .LPA_lab2 {
+  
+    width: 98%;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+                
+  }
+  .LPA_box {
+   
+    height: 60px;
+    width:48%;
+    float:left;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+  }
+  
+  .LPA-icon1 {
+    margin-top: 0.8rem;
+    height: 2rem;
+    width: 1.5rem;
+    float:right;
+    margin-right: 0.5rem;
+    
+  }
+  .LPA_dropdown{
+  
+    text-align: center;
+    position: relative;
+    width: 49%;
+    height: 60px;
+    float: right;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #ffffff;
+    cursor: pointer; 
+    font-size: 16px;
+    color: #555;
+    
+          
+  }
+  .LPA_dropdown:active{
+    background:  #ecf0f3;
+    box-shadow: inset 7px 7px 14px #cccdd1,
+                 inset -7px -7px 14px #ffffff;
+  }
+  .LPA_dropdown Select{
+    position: absolute;
+    transform: translate(-50%,-0%);
+    z-index: 1;
+    border: none;
+    outline: none;
+    background: none;
+    color: #37373d;
+    font-size: 16px;
+    cursor: pointer;
+   }
+  .LPA_dropdown select:focus{
+    outline: none;
+    border: none; 
+  } 
+  
+  
+  .LPA_select-style select {
+  
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 1rem;
+    margin-left: 0rem;
+    padding: 20px;
+   
+    
+  }
+  
+  .LPA_select-style:after {
+  /*arrow head*/
+    left: 90%;
+    border: solid transparent;
+    content: " ";
+    height: 1.5rem;
+    width: 1px;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-top-color: #000000;
+    border-width: 6px;
+    margin-top:1.8rem;
+    z-index: 100;
+    
+    }
+  .LPA_select-style select:focus {
+  outline: none;
+  }
+
+
+
+
+

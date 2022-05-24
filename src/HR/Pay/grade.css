@@ -1,0 +1,255 @@
+.PG_main_class{
+    width:500px;
+    height: auto;
+    padding: 0px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    /* box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #FFFFFF; */
+} 
+.PG_field{
+    width:100%;
+    overflow: hidden;
+    padding: 19px 5px 5px 5px;
+    background: none;
+    border:none;
+
+}
+.PG1_srh{
+    width: 36%;
+    height: 3rem;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    margin-left: 17.68rem;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+             
+}
+.PG1_input_fields77{
+    border: none;
+    width: 70%;
+    float:left;
+    /* margin-top: 1rem; */
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:12px 0px 20px 13px;
+}
+.PG1_svg-icon13{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top:0.9rem;
+    margin-left:0px;
+  }
+  .PG1_svg.svg-icon13{
+    height: 20px;
+    float: right;
+   
+  }
+  .PG1_svg-icon13 path,
+  .PG1_svg-icon13 polygon,
+  .PG1_svg-icon13 rect {
+    fill: black;
+  }
+  .PG1_svg-icon13 circle {
+    stroke: rgb(206, 202, 202);
+    stroke-width: 2px;
+  }
+  .PG_na2{
+    width: 47%;
+    height: 3rem;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+   
+       
+  }
+  .PG_Aware_user-input2{
+  /* float: left; */
+  border: none;
+  margin-left: 1rem;
+  outline:none;
+  margin-top: 3px;
+  background: none;
+  font-size: 14px;
+  overflow: hidden;
+  color: #555;
+  padding: 12px 10px 3px 3px;
+  width: 82%;
+  /* float: right; */
+  }
+  .PG_na{
+    width: 47%;
+    height: 3rem;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+.PG_Aware_user-input1{
+  border: none;
+  outline:none;
+  margin-top: -2.22rem;
+  margin-left: 2rem ;
+  background: none;
+  font-size: 14px;
+  overflow: hidden;
+  color: #555;
+  padding: 18px 10px 3px 3px;
+  width: 84%;
+  float: right;
+ 
+}
+.PG_svg.svg-icon12 {
+    height: 20px;
+    float: right;
+   
+  }
+  .PG_svg-icon12 {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top:0.9rem;
+    margin-left:14px;
+  }
+ 
+  .PG_svg-icon12 path,
+  .PG_svg-icon12 polygon,
+  .PG_svg-icon12 rect {
+    fill: black;
+  }
+ 
+  .PG_svg-icon12 circle {
+    stroke: rgb(206, 202, 202);
+  stroke-width: 2px;
+  }
+
+  .PG-dropdown{
+    text-align: center;
+    position: relative;
+    width: 47%;
+    height: 3rem;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+   
+  }
+  .PG-dropdown:active{
+  background:  #ecf0f3;
+  box-shadow: inset 7px 7px 14px #cccdd1,
+              inset -7px -7px 14px #ffffff;
+  }
+  .PG-dropdown Select{
+    position: absolute;
+    transform: translate(-50%,-15%);
+    z-index: 1;
+    border: none;
+    outline: none;
+    background: none;
+    color: #37373d;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .PG-dropdown select:focus{
+      outline: none;
+      border: none;
+  }
+  
+  .PG-select-style{
+      padding: 0;
+      /* margin-top: 3rem; */
+      margin-left: 0rem;
+      /* margin-left: 1.1rem; */
+      align-content: center;
+      text-align: center;
+      width: 100px;
+      border-radius: 33px;
+      color:#555;
+      background:  #ecf0f3;
+      background-color:   #ecf0f3;
+      position: relative;
+  
+  }
+  .PG-add-button {
+    outline: none;
+      border:none;
+      cursor: pointer;
+      width:22%;
+      height: 32px;
+      border-radius: 30px;
+      font-size: 15px;
+     
+     
+      font-weight: 500;
+      font-family: 'Lato', sans-serif;
+      color:#fff;
+      text-align: center;
+      background: #24cfaa;
+      box-shadow: 3px 3px 8px #b1b1b1,
+                  -3px -3px 8px #ffffff;
+      transition: 0.5s;
+  }
+   .PG-add-button:hover {
+    background:#2fdbb6;
+  }
+  .PG-add-button:active {
+    background:#1da88a;
+  }
+  .PG-cancel-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:22%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 2rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #8c8a8f;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  }
+   .PG-cancel-button:hover {
+    background:#b5b2bb;
+  }
+  .PG-cancel-button:active {
+    background:#1da88a;
+  }
+  
+   
+  .PG-select-style select{
+    width: 180%;
+    height: 2rem;
+    margin-top:0.9rem;
+    -webkit-appearance:none;
+    appearance: none;
+    font-size: 14px;
+    margin-left: 3.49rem;
+  }
+  .PG-select-style:after{
+  margin-top: -12px;
+  left: 75%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  /* width: 10px; */
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: #000000;
+  border-width: 5px;
+  margin-top: 1.4rem;
+  margin-left: 5.88rem;
+  z-index: 100;
+  }
+  .PG-select-style select:focus{
+      outline: none;
+  }

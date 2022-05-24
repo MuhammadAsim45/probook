@@ -1,0 +1,31 @@
+/* .modal-OPRJ{
+    width: 100%;
+} */
+.px-4 {
+     padding-right:0;
+}   
+.container{
+    padding-left: 0% !important;
+}
+.nav-link{
+    color: white;
+}
+.modal-content{
+    background: none !important;
+    border:none !important;
+    box-shadow:none !important;
+  }
+.nav-link:hover{
+    color: white;
+    background-color: rgb(245, 58, 58);
+}
+
+/*.dashboard::-webkit-scrollbar{
+    width: 10px;
+}
+ .dashboard::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+.dashboard::-webkit-scrollbar-track{
+    color: white;
+} */

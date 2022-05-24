@@ -1,0 +1,186 @@
+.LT_Earned{
+    width: 444px;
+    height: auto;
+    padding: 0px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
+
+}
+.LT_img{
+    width: 100%;
+    overflow: hidden;
+    padding: 19px 5px 5px 5px; 
+}
+
+.Leave_code_field{
+    background: none;
+    width: 35%;
+    height: 3rem;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+    overflow: hidden;
+    margin-left: 290px;
+} 
+.Leave_code_fields77{
+    background: none;
+    border:none;
+    height: auto;
+    width: 60%;
+    outline:none;
+    overflow: hidden;
+    color: #555;
+    padding: 19px 5px 5px 5px;
+}
+.svg-icon22{
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-top: 1.12rem;
+    margin-right:0.70rem;
+}
+.svg-icon22 path,
+.svg-icon22 polygon,
+.svg-icon22 rect{
+    fill:#000307;
+}
+.svg-icon22 circle{
+    stroke: #4691f6;
+    stroke-width: 2%;
+}
+.svg.svg-icon22 {
+height: 20px;
+/* margin-top:3rem; */
+/* float: right; */
+
+}
+.LT_1{
+    width: 47%;
+    height: 3rem;
+    float: left;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+.LT_na{
+    width: 47%;
+    height: 3rem;
+    /* margin-left: 12.35rem; */
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+    /* float:right; */
+}
+.svg.svg-icon23 {
+    height: 20px;
+    float: right;
+    margin-top: 1.02rem;
+    margin-left: 0.7rem;
+    
+  }
+  .svg-icon23 {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 0.70rem;
+    margin-top: 1.12rem;
+  }
+  
+  .svg-icon23 path,
+  .svg-icon23 polygon,
+  .svg-icon23 rect {
+    fill: #000307;
+  }
+  
+  .svg-icon23 circle {
+    stroke: #4691f6;
+  stroke-width: 2;
+  }
+.LT_input_1{
+    width: 47%;
+    height: 3rem;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                 inset -8px -8px 8px #ffffff;
+              
+}
+.LT_input_2{
+    border: none;
+    width: 93%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:18px 5px 5px 10px;
+    
+}
+.LT_user-input3{
+    border: none;
+  outline:none;
+  /* margin-top: -5px; */
+  background: none;
+  font-size: 14px;
+  /* margin-top: -1px; */
+  overflow: hidden;
+  color: #555;
+  padding: 19px 5px 5px 9px;
+  width: 72%;
+  height: auto;
+    
+}
+
+.TL-add-button1{
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:22%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    
+    
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+    }
+    .TL-add-button1:hover {
+    background:#2fdbb6;
+    }
+    .TL-add-button1:active {
+    background:#1da88a;
+    } 
+    .TL-cancel-button2 {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:22%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 2rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #8c8a8f;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+    } 
+    .TL-cancel-button2:hover {
+    background:#b5b2bb;
+    }
+    .Tl-cancel-button2:active {
+    background:#1da88a;
+    }
+      

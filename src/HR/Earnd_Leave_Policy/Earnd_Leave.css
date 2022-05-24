@@ -1,0 +1,232 @@
+.HR_Earned{
+    width: 520px;
+    height: auto;
+    margin-top: 3rem;
+    padding: 0px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    /* box-shadow: 13px 13px 20px #cbced1, */
+                /* -13px -13px 20px #ffffff; */
+
+}
+.Earned_img{
+    width: 100%;
+    overflow: hidden;
+    padding: 19px 5px 5px 5px; 
+}
+.ELP1_code_field{
+    background: none;
+    width: 35%;
+    height: 3rem;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+    overflow: hidden;
+
+}
+.ELP1_code_fields77{
+    background: none;
+    border:none;
+    height: auto;
+    width: 80%;
+    outline:none;
+    overflow: hidden;
+    color: #555;
+    padding: 15px 5px 5px 17px;
+}
+.ELP1_svg-icon17{
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-top: 1rem;
+    margin-right:0.70rem;
+}
+.ELP1_svg-icon17 path,
+.ELP1_svg-icon17 polygon,
+.ELP1_svg-icon17 rect{
+    fill:#000307;
+}
+.ELP1_svg-icon17 circle{
+    stroke: #4691f6;
+    stroke-width: 2%;
+}
+.ELP1_svg.svg-icon17 {
+height: 20px;
+/* margin-top:3rem; */
+/* float: right; */
+
+}
+.ELP1-dropdown{
+text-align: center;
+position: relative;
+width: 47%;
+float: right;
+height: 3rem;
+margin: 0;
+border-radius: 25px;
+box-shadow: inset 8px 8px 8px #cbced1,
+inset -8px -8px 8px #ffffff;
+cursor: pointer; 
+font-size: 16px;
+color: #555;
+
+}
+
+.ELP1-dropdown:active{
+background:  #ecf0f3;
+box-shadow: inset 7px 7px 14px #cccdd1,
+                inset -7px -7px 14px #ffffff;
+}
+.ELP1-dropdown Select{
+position: absolute;
+transform: translate(-50%,-50%);
+z-index: 1;
+border: none;
+outline: none;
+background: none;
+color: #37373d;
+font-size: 14px;
+cursor: pointer;
+}
+.ELP1-dropdown select:focus{
+outline: none;
+border: none; 
+} 
+
+.ELP1-selecter-style select {
+
+width: 84%; 
+margin-top:1.5rem;
+-webkit-appearance: none;
+appearance: none;
+font-size: 14px;
+/* margin-left: 1rem; */
+
+}
+
+.ELP1-selecter-style:after {
+/*arrow head*/
+/* top: 100%; */
+left: 85%;
+border: solid transparent;
+content: " ";
+height: 1.5rem;
+width: 1px;
+position: absolute;
+pointer-events: none;
+border-color: rgba(0, 0, 0, 0);
+border-top-color: #000000;
+border-width: 5px;
+margin-top:1.5rem;
+z-index: 100;
+    
+}
+.ELP1-selecter-style select:focus {
+outline: none;
+}
+
+.ELP1_class_input1{
+    background: none;
+    width: 47%;
+    height: 3rem;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+    overflow: hidden;
+}
+.ELP1_feild_input78{
+    background: none;
+    border:none;
+    height: auto;
+    width: 80%;
+    outline:none;
+    overflow: hidden;
+    color: #555;
+    padding: 13px 5px 5px 5px;
+}
+.ELP1_svg-icon18{
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-top: 1.02rem;
+    margin-left:0.70rem;   
+}
+.ELP1_svg.svg-icon18{
+    height: 20px;
+
+}
+.ELP1_svg-icon18 path,
+.ELP1_svg-icon18 polygon,
+.ELP1_svg-icon18 rect{
+    fill: #000307;
+}
+.ELP1_svg-icon circle{
+    stroke: #4691f6;
+    stroke-width: 2%;
+}
+.ELP1_box1{
+  width:47%;
+  height: 3rem;
+  /* margin-left: 196px; */
+  overflow: hidden;
+  background: none;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbced1,
+              inset -8px -8px 8px #ffffff;
+}
+.ELP1_user-input79{
+border: none;
+outline:none;
+margin-top: -1px;
+background: none;
+overflow: hidden;
+color: #555;
+padding:13px 6px 6px 20px;
+width: 90%;
+}
+
+.ELP-add-button1{
+outline: none;
+border:none;
+cursor: pointer;
+width:22%;
+height: 32px;
+border-radius: 30px;
+font-size: 15px;
+font-weight: 500;
+font-family: 'Lato', sans-serif;
+color:#fff;
+text-align: center;
+background: #24cfaa;
+box-shadow: 3px 3px 8px #b1b1b1,
+            -3px -3px 8px #ffffff;
+transition: 0.5s;
+}
+.ELP-add-button1:hover {
+background:#2fdbb6;
+}
+.ELP-add-button1:active {
+background:#1da88a;
+} 
+.ELP-cancel-button2 {
+outline: none;
+border:none;
+cursor: pointer;
+width:22%;
+height: 32px;
+border-radius: 30px;
+font-size: 15px;
+margin-left: 2rem;
+font-weight: 500;
+font-family: 'Lato', sans-serif;
+color:#fff;
+text-align: center;
+background: #8c8a8f;
+box-shadow: 3px 3px 8px #b1b1b1,
+            -3px -3px 8px #ffffff;
+transition: 0.5s;
+} 
+.ELP-cancel-button2:hover {
+background:#b5b2bb;
+}
+.ELP-cancel-button2:active {
+background:#1da88a;
+}

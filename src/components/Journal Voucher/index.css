@@ -1,0 +1,235 @@
+.JV_fields {
+  border: none;
+  width: 100%;
+  outline:none;
+  background: none;
+  overflow: hidden;
+  color: #555;
+   /* border:'none';
+   background:'none';
+   outline:'none';
+   width:100%; */
+   /* overflow: hidden; */
+}
+.JR_div {
+    width:1090px;
+    height: auto;
+    /* margin: 2rem; */
+    padding: 13px 32px 38px 37px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    margin-left: -12rem;
+   
+  }
+  /* Table{
+    height: 100px;       /* Just for the demo          */
+    /* overflow-y: hidden;    Trigger vertical scroll    */
+    /* overflow-x: auto;  Hide the horizontal scroll */
+  
+  .JR-fields {
+    width: 100%;
+    overflow: hidden;
+    padding: 16px 5px 5px 5px;
+  }
+  .JR-username {
+    
+    height: 3rem;
+    width: 14rem;
+    float: left;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+  }
+  input.JR-user-input2 {
+    border: none;
+    width: 71%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:15px 7px;
+  }
+   .svg-JR {
+    height: 21px;
+    margin: 15px 14px -3px 12px;
+    float: right;
+    
+  }
+  .JV-Ok-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:22%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    /* margin-left: 2rem; */
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .JV-Ok-button:hover {
+    background:#2fdbb6;
+  }
+  .JV-Ok-button:active {
+    background:#1da88a;
+  }
+  @media(min-width:0px){
+  .JV-add-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:70%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 14%;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .JV-add-button:hover {
+    background:#8ca7bd;
+  }
+  .JV-add-button:active {
+    background:#98b0c5;
+  } 
+}
+@media (min-width: 476px){
+  .JV-add-button {
+    outline: none;
+      border:none;
+      cursor: pointer;
+      width:22%;
+      height: auto;
+      border-radius: 30px;
+      font-size: 15px;
+      margin-left: 2rem;
+      margin-top: 0%;
+      font-weight: 500;
+      font-family: 'Lato', sans-serif;
+      color:#fff;
+      text-align: center;
+      background: #2fdbb6;
+      box-shadow:  3px 3px 8px #b1b1b1,
+                  -3px -3px 8px #ffffff;
+      transition: 0.5s;
+  }
+  .JV-add-button:hover {
+    background:#1da88a;
+  }
+  .JV-add-button:active {
+    background:#1da88a;
+  }
+}
+
+@media(min-width:0px){
+
+  .JV-add-button2 {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:70%;
+    margin-top: 3%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 14%;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .JV-add-button2:hover {
+    background:#8ca7bd;
+  }
+  .JV-add-button2:active {
+    background:#98b0c5;
+  } 
+}
+@media (min-width: 476px){
+  .JV-add-button2 {
+    outline: none;
+      border:none;
+      cursor: pointer;
+      width:22%;
+      height: auto;
+      border-radius: 30px;
+      font-size: 15px;
+      margin-left: 2rem;
+      margin-top: 0%;
+      font-weight: 500;
+      font-family: 'Lato', sans-serif;
+      color:#fff;
+      text-align: center;
+      background: #2fdbb6;
+      box-shadow:  3px 3px 8px #b1b1b1,
+                  -3px -3px 8px #ffffff;
+      transition: 0.5s;
+  }
+  .JV-add-button2:hover {
+    background:#1da88a;
+  }
+  .JV-add-button2:active {
+    background:#1da88a;
+  }
+}
+
+  .JV-cancel-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:15rem;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 2rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #8c8a8f;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .JV-cancel-button:hover {
+    background:#b5b2bb;
+  }
+  .JV-cancel-button:active {
+    background:#1da88a;
+  }
+  input.JEN_user-input1 {
+    border: none;
+    /* width: 60%; */
+    /* height: 5rem; */
+    outline:none;
+    /* margin-top: 0.7rem; */
+    background: none;
+    overflow: hidden;
+    color: #555;
+  }
+  .JEN_username11 {
+    width: 26%;
+    height: 3rem;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+  }

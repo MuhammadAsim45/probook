@@ -1,0 +1,171 @@
+.FY_add-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:22%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 2rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .FY_add-button:hover {
+    background:#2fdbb6;
+  }
+  .FY_add-button:active {
+    background:#1da88a;
+  } 
+  .FY_cancel-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:22%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 2rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #8c8a8f;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .FY_cancel-button:hover {
+    background:#b5b2bb;
+  }
+  .FY_cancel-button:active {
+    background:#1da88a;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+  }
+  
+  .FY_Div {
+    width:500px;
+    height: auto;
+    padding: 0px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    /* box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff; */
+  }
+
+
+  .FY_fields {
+    width:100%;
+    overflow: hidden;
+    padding: 45px 5px 5px 5px;
+  
+  }
+  
+  .FY_fields input {
+    border: none;
+    width:100%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    font-size: 15px;
+    color: #555;
+    padding:15px 10px 20px 5px; 
+   
+  }
+  input.FY-input {
+    border: none;
+    width: 100%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:16px 16px;
+    
+  }
+  input.FY-input1 {
+    border: none;
+    width: 80%;
+  
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:20px;
+    
+  }
+  input.FY-input3 {
+    border: none;
+    width: 80%;
+  
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:15px 16px;
+    
+  }.FY_fields input::after{
+    border: none;
+    overflow: hidden;
+    outline:none;
+    background: none;
+  
+   
+  }
+ .FY_lab {
+
+    width: 48%;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+                
+  }
+  .FY_lab1 {
+
+    width: 40%;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+                
+  }
+  .FY_box {
+   
+    /* height: 60px; */
+    width:48%;
+    float:left;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+  }
+
+ .FY-icon1 {
+    margin-top: 0.8rem;
+    height: 2rem;
+    width: 1.5rem;
+    float:right;
+    margin-right: 0.5rem;
+    
+  }
+ 

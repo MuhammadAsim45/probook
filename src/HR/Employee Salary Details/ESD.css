@@ -1,0 +1,180 @@
+.ESD_add-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:22%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    /* margin-left: 2rem; */
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .ESD_add-button:hover {
+    background:#2fdbb6;
+  }
+  .ESD_add-button:active {
+    background:#1da88a;
+  } 
+  .ESD_cancel-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:22%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 2rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #8c8a8f;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .ESD_cancel-button:hover {
+    background:#b5b2bb;
+  }
+  .ESD_cancel-button:active {
+    background:#1da88a;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+  }
+  
+  .ESD_Div {
+    width:500px;
+    height: auto;
+    padding: 0px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    /* box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff; */
+  }
+
+
+  .ESD_fields {
+    width:100%;
+    overflow: hidden;
+    padding: 45px 5px 5px 5px;
+  
+  }
+  
+  .ESD_fields input {
+    border: none;
+    width:100%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    font-size: 15px;
+    color: #555;
+    padding:20px 10px 20px 5px; 
+   
+  }
+  input.ESD-input {
+    border: none;
+    width: 100%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:14px 12px;
+    
+  }
+  input.ESD-input5 {
+    border: none;
+    width: 100%;
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:13px 12px;
+    
+  }
+  input.ESD-input1 {
+    border: none;
+    width: 80%;
+  
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:20px;
+    
+  }
+  input.ESD-input3 {
+    border: none;
+    width: 80%;
+  
+    outline:none;
+    background: none;
+    overflow: hidden;
+    color: #555;
+    padding:14px 16px;
+    
+  }.ESD_fields input::after{
+    border: none;
+    overflow: hidden;
+    outline:none;
+    background: none;
+  
+   
+  }
+ .ESD_lab {
+    height: 3rem;
+    width: 48%;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+                
+  }
+  .ESD_lab5 {
+    height: 3rem;
+    width: 100%;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+                
+  }
+  .ESD_box {
+    margin:0rem;
+    height: 48px;
+    width:48%;
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+  }
+
+ .icon1 {
+    margin-top: 0.8rem;
+    height: 1.3rem;
+    width: 2rem;
+    float:right;
+    margin-right: 0.5rem;
+    
+  }
+ 

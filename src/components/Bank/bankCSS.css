@@ -1,0 +1,371 @@
+/*Cost of Account*/
+/* @media (min-width:000px) {
+  .login-divbank {
+    height: auto;
+    margin-right: 10px;
+    padding: 0px 35px 35px 10px;
+    border-radius: 40px;
+    background: #ecf0f3;
+  }
+} */
+
+/* @media (min-width:500px) {
+  .login-divbank {
+    width: 95%;
+    height: 600px;
+    margin-right: 10px;
+    padding: 0px 35px 35px 10px;
+    border-radius: 40px;
+    background: #ecf0f3;
+  }
+} */
+
+/* @media (min-width:770px) {
+  .login-divbank {
+    width: 110%;
+    height: 600px;
+    margin-right: 10px;
+   
+    padding: 0px 35px 35px 10px;
+    border-radius: 40px;
+    background: #ecf0f3;
+   
+  }
+} */
+
+/* @media (min-width:940px) {
+  .login-divbank {
+    width: 140%;
+    height: 600px;
+    margin-left: -3%;
+    padding: 0px 35px 35px 10px;
+    border-radius: 40px;
+    background: #ecf0f3;
+  }
+} */
+
+/* @media (min-width:1200px) {
+  .login-divbank {
+    width: 190%;
+    height: 600px;
+    margin-left: -24%;
+    padding: 0px 35px 35px 10px;
+    border-radius: 40px;
+    background: #ecf0f3;
+  }
+} */
+
+.modal-content {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.modal-table{
+  /* width: auto; */
+  height: auto;
+  /* margin-right: 12px; */
+  padding: 45px 15px 3px 35px;
+  border-radius: 40px;
+  background: rgb(185 208 227);
+  
+}
+.Radio1 {
+  margin-left: 1rem;
+}
+
+.bankOkay-button {
+  float: left;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  height: 32px;
+  border-radius: 30px;
+  font-size: 15px;
+  margin-left:3%;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  text-align: center;
+  background: #24cfaa;
+  box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+
+.bankOkay-button:hover {
+  background: #2fdbb6;
+}
+
+.bankOkay-button:active {
+  background: #1da88a;
+}
+.bankOkay1-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  height: 32px;
+  border-radius: 30px;
+  font-size: 15px;
+  margin-left: 3%;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  text-align: center;
+  background: #8c8a8f;
+  box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+
+.bankOkay1-button:hover {
+  background: #2fdbb6;
+}
+
+.bankOkay1-button:active {
+  background: #1da88a;
+}
+.bankAdd-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 62%;
+  height: 32px;
+  border-radius: 30px;
+  font-size: 15px;
+  margin-left: 0.2rem;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  text-align: center;
+  background: #24cfaa;
+  box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+
+.bankAdd-button:hover {
+  background: #2fdbb6;
+}
+
+.bankAdd-button:active {
+  background: #1da88a;
+}
+
+.bankCan-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 62%;
+  height: 32px;
+  border-radius: 30px;
+  font-size: 15px;
+  margin-left: 0rem;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  text-align: center;
+  background: #8c8a8f;
+  box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+
+.bankCan-button:hover {
+  background: #b5b2bb;
+}
+
+.bankCan-button:active {
+  background: #1da88a;
+}
+
+/* body {
+    margin:0;
+    height: auto;
+    width: 100%;
+    overflow: scroll;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#555;
+    background: #ecf0f3;
+    border-radius: 20px;
+  } */
+.title {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 24px;
+  letter-spacing: 0.5px;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 7px;
+  letter-spacing: 3px;
+}
+
+.bank_fields {
+  width: 100%;
+  overflow: hidden;
+}
+
+.bank_fields input {
+  border: none;
+  width: 100%;
+  outline: none;
+  background: none;
+  overflow: hidden;
+  font-size: 16px;
+  color: #555;
+}
+
+input.bank_user-input {
+  border: none;
+  width: 100%;
+  outline: none;
+  background: none;
+  overflow: hidden;
+  color: #555;
+}
+
+.bank_fields input::after {
+  border: none;
+  overflow: hidden;
+  outline: none;
+  background: none;
+
+
+}
+
+.table-responsive {
+  min-height: .01%;
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 767px) {
+
+  .table-responsive {
+
+    width: 100%;
+
+    margin-bottom: 15px;
+
+    overflow-y: hidden;
+
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+
+    border: 1px solid #ddd;
+
+  }
+
+  .table-responsive>.table {
+
+    margin-bottom: 0;
+
+  }
+
+  .table-responsive>.table>thead>tr>th,
+
+  .table-responsive>.table>tbody>tr>th,
+
+  .table-responsive>.table>tfoot>tr>th,
+
+  .table-responsive>.table>thead>tr>td,
+
+  .table-responsive>.table>tbody>tr>td,
+
+  .table-responsive>.table>tfoot>tr>td {
+
+    white-space: nowrap;
+
+  }
+
+}
+
+
+.Table1 {
+  font-family: Lato, sans-serif;
+
+  width: 100%;
+
+}
+
+
+.Table1 td {
+  border: 1px solid #dcdfe0;
+  padding: 8px;
+  font-size: 14px;
+  color: Black;
+}
+
+.Table1 tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.Table1 tr:hover {
+  background-color: #C8C8C8;
+}
+
+
+.Table1 th {
+  font-family: Lato, sans-serif;
+  padding: 8px;
+  border: 1px solid #dcdfe0;
+  text-align: left;
+  background-color: transparent;
+  color: Black;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 1px solid;
+}
+.svg-icon1 {
+
+  float: right; 
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-top: 0.9rem;
+  margin-right: 1rem; 
+}
+@media(min-width:0px){
+.bank_username {
+  width: 53%;
+  height: 3rem; 
+  overflow: hidden;
+  background: none;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+input.bank_user-input1 {
+  border: none;
+  width: 50%;
+  outline: none;
+  margin-top: 0.7rem;
+  background: none;
+  overflow: hidden;
+  color: #555;
+}
+}
+@media(min-width:476px){
+  .bank_username {
+    width: 47%;
+    height: 3rem;
+  
+    overflow: hidden;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+  }
+  input.bank_user-input1 {
+    border: none;
+    width: 70%;
+    outline: none;
+    margin-top: 0.7rem;
+    background: none;
+    overflow: hidden;
+    color: #555;
+  }
+}

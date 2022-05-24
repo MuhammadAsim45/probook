@@ -1,0 +1,281 @@
+/*Cost of Account*/
+
+
+.login-Modal1 {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    padding: 0px 20px 20px 20px;
+    border-radius: 40px;
+    background: #ecf0f3;
+   
+                font-size: 16px;
+                color:black;
+  }
+
+  
+ .TM1Okay-button{
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width: 8%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 0.2rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;  
+ }
+ .TM1Okay-button:hover {
+    background:#2fdbb6;
+  }
+  .TM1Okay-button:active {
+    background:#1da88a;
+  }
+  .TM1Add-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:5%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 0.2rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .TM1Add-button:hover {
+    background:#2fdbb6;
+  }
+  .TM1Add-button:active {
+    background:#1da88a;
+  } 
+  .TM1Can-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:8%;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 2rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #8c8a8f;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  } 
+   .TM1Can-button:hover {
+    background:#b5b2bb;
+  }
+  .TM1Can-button:active {
+    background:#1da88a;
+  }
+  
+  
+  
+  
+  
+  
+  body {
+    margin:0;
+    height: auto;
+    width: 100%;
+    overflow: scroll;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#555;
+    background: #ecf0f3;
+    border-radius: 20px;
+  }
+  .title {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+  }
+
+.TM1_fields {
+        width:100%;
+        overflow: hidden;
+      }
+      
+.TM1_fields input {
+        border: none;
+        width:100%;
+        outline:none;
+        background: none;
+        overflow: hidden;
+        font-size: 16px;
+        color: #555; 
+      }
+input.TM1_user-input {
+        border: none;
+        width: 100%;
+        outline:none;
+        background: none;
+        overflow: hidden;
+        color: #555;
+      }
+      input.TM1_user-input1 {
+        border: none;
+        width: 50%;
+        outline:none;
+        margin-top: 1rem;
+        background: none;
+        overflow: hidden;
+        color: #555;
+      }
+      
+.TM1_fields input::after{
+        border: none;
+        overflow: hidden;
+        outline:none;
+        background: none;
+      
+       
+      }
+  .Table3
+  {    
+      font-family: Lato, sans-serif;
+      width: 100%;
+   
+  }
+
+      
+     .Table3 td {
+      border: 1px solid #dcdfe0;
+      padding: 2px;
+      font-size: 16px;
+      color: Black;
+    }
+      .Table3 tr:nth-child(odd){background-color :#ddd;}
+      
+      .Table3 tr:hover {background-color: #C8C8C8;}
+
+
+      .Table3 th {
+        text-align: justify;
+        font-family: Lato, sans-serif;
+        padding: 2px;
+        border: 1px solid #dcdfe0;
+        text-align: left;
+        background-color: transparent;
+        color: Black;
+        font-weight: bold;
+        font-size: 16px;
+        border-bottom: 1px solid;
+      }
+  
+
+      .TM1dropdown{
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 60px;
+        margin: 0;
+        cursor: pointer; 
+        font-size: 16px;
+        color: #555;       
+      }
+      .TM1dropdown:active{
+        background:  #ecf0f3;
+        
+      }
+
+
+      .TM1dropdown Select{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        z-index: 1;
+        border: none;
+        outline: none;
+        background: none;
+        color: #37373d;
+        font-size: 16px;
+        cursor: pointer;
+       }
+      .TM1dropdown select:focus{
+        outline: none;
+        border: none; 
+      } 
+      
+      
+      .TM1select-style select {
+      
+        width: 100%;
+        -webkit-appearance: none;
+        appearance: none;
+        font-size: 1rem;
+        margin-left: -0.5rem;
+        padding: 20px;
+       
+        
+      }
+      
+      .TM1select-style:after {
+      /*arrow head*/
+        left: 80%;
+        border: solid transparent;
+        content: " ";
+        height: 1.2rem;
+        width: 1.5px;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(0, 0, 0, 0);
+        border-top-color: #000000;
+        border-width: 6px;
+        margin-top:1.6rem;
+        z-index: 100;
+        
+        }
+      .TM1select-style select:focus {
+      outline: none;
+      }
+    
+    
+      .svg-icon1 {
+       
+        float: right;
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-top:0.9rem;
+        margin-right: 1rem;
+      
+
+        
+      }
+    
+      .TM1_username {
+        width: 10%;
+        height: 3rem;
+        
+        overflow: hidden;
+        background: none;
+        border-radius: 25px;
+        box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+      }
